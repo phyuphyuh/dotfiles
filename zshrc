@@ -70,3 +70,7 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+export PATH="/opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+export SSL_CERT_FILE="$(brew --prefix)/etc/openssl@3/cert.pem"
+export SSL_CERT_DIR="$(brew --prefix)/etc/openssl@3/certs"
+export SSL_CERT_FILE=$(brew --prefix openssl)/etc/openssl@3/cert.pem

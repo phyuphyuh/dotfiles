@@ -84,4 +84,16 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[erb]": {
+      "editor.formatOnSave": true
+    },
+    "files.associations": {
+      "*.erb": "erb"
+    },
 }
